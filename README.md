@@ -53,7 +53,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/SNStatComp/GEM_MisclassificationFinder.git 
-cd GEM_MiclassificationFinder
+cd GEM_MisclassificationFinder
 ``` 
 
 Create and activate a virtual environment:
