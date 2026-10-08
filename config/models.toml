@@ -1,0 +1,21 @@
+[NB] # Naive Bayes
+
+[SVM] # Support Vector Machine
+#C = 0.1
+#gamma = 0.01
+#kernel = 'sigmoid'
+
+[RF] # Random Forest
+#max_depth = 20
+#max_features = 'log2' # 'log2'
+#n_estimators = 200
+
+[XG] # XGBoost
+
+[LR] # Logistic Regression
+
+[GB] # Gradient Boost Classifier
+#learning_rate = 0.02  # default: 0.1
+#max_depth = 5      # default: 3
+#max_features = 0.1 # default: None
+#n_estimators = 100 # default: 100

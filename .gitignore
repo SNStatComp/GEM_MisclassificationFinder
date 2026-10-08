@@ -1,0 +1,12 @@
+dry_beans/**
+!dry_beans/**/
+!dry_beans/**/.gitkeep
+
+results/**
+!results/**/
+!results/**/.gitkeep
+
+log/**
+!log/**/
+!log/**/.gitkeep
+

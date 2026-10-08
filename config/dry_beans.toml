@@ -1,0 +1,40 @@
+# dataset
+trueLabel_col = 'Class'
+performance_col = 'background'
+# gold_cols = ['gold20', 'gold50', 'gold100']
+gold_cols = ['gold100']
+bg_col = 'background'
+sc_lim = 'background'
+
+# scenario
+seeds = [14710, 99014, 30681, 25378, 17370, 81638, 78529, 87195, 14258, 84308]
+
+# errortypes = ['subtle', 'random', 'obvious']
+# errorper = [5, 10, 20, 30]
+
+observedLabel = 'Class_observed' 
+errortypes = ['']
+errorper = ['']
+# realistic.errorper = ['']
+controle = 'gecontroleerd'
+
+# scenarios = ["sc1", "sc2", "sc3", "sc4"]
+scenarios = [ "sc1"]
+
+# EM
+# tau_choice = "eps" # tau_epsilon
+tau_choice = "psi" # tau_psi
+# tau_choice = ["psi", "eps"]
+# loop in scenariosV2.py voor eps en psi gemaakt (DPGS LSZU)
+
+# Gewicht kalibratie 
+wmodel = "w4b"
+
+# prior
+prior = false
+
+include_odf = false
+# nodig zodra include_odf = true
+# r2_grenswaarde = 0.2
+# it_overduidelijkefout = 3 
+# min_iteratie = 0
