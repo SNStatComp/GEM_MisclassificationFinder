@@ -1,8 +1,7 @@
 # GEM_MisclassificationFinder
 This repository implements the generalized EM (GEM) algorithm, a method for identifying misclassified labels using auxiliary data and background variables. 
 
-The code is accompanying the paper **Identifying misclassified labels in Register Data** by 
-Arnout van Delden, Dewi Peerlings, Naomi Schalken, Liu Nuo Su, Sander Scholtus, and Dick Windmeijer (2026). 
+The code is accompanying the paper **Identifying misclassified labels in Register Data** (submitted). 
 
 It includes an example using the dry beans dataset used in [Koklu, Ozkan (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0168169919311573). 
 
@@ -10,19 +9,19 @@ It includes an example using the dry beans dataset used in [Koklu, Ozkan (2020)]
 ```text
 project-root/
 │
-├── config/                 # Central configuration folder
-│   ├── models.toml        # Configurtion file for ML model selection
+├── config/                # Central configuration folder
+│   ├── models.toml        # Configuration file for ML model selection
 │   └── dry_beans.toml     # Central configuration file for EM algorithm
 │
 │
-├── dry_beans/          # Folder for dry beans data
+├── dry_beans/             # Folder for dry beans data
 │   ├── features.pickle 
 │   └── labels.csv    
-├── log/                 # Folder for log files
+├── log/                   # Folder for log files
 ├ 
-├── misc/                # Folder for miscellaneous files (notebook images) 
+├── misc/                  # Folder for miscellaneous files (notebook images) 
 │ 
-├── results/                # Generated outputs (not code)
+├── results/               # Generated outputs (not code)
 │   ├── confusion/      
 │   ├── pi_stats/
 │   ├── psi/
@@ -39,7 +38,7 @@ project-root/
 │
 ├── scenariosV3.py          # Entry point point (runs the full pipeline)
 ├── requirements.txt        # Package requirements
-├── example_dry_beans.ipynb  # Example notebook for adding misclassifications
+├── example_dry_beans.ipynb # Example notebook for adding misclassifications
 ├── export_results.ipynb    # Small script exporting and writing results
 ├── run_algorithm.ipynb     # Example notebook calling and optimizing labelquality EM algorithm
 │      
@@ -100,10 +99,9 @@ If you use this work, please cite::
 ```bibtex
 @article{delden2026_GEM,
   title   = {Identifying misclassified labels in Register Data},
-  author  = {van Delden, A. and Peerlings, D. and Schalken, N. and Su, L.N. and Scholtus, S. and Windmeijer, D.},
-  journal = {Journal of Official Statistics},
   year    = {2026},
-  doi     = {DOI}
+  doi     = {DOI},
+  note    = {submitted}
 }
 ```
 
