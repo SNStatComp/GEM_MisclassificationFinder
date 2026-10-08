@@ -71,7 +71,7 @@ source .venv/bin/activate
 Install the dependencies:
 
 ```bash
-python -m pip install r requirements.txt 
+python -m pip install -r requirements.txt 
 ``` 
 
 ## Quick start
