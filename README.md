@@ -94,10 +94,10 @@ The confidential data used in the paper cannot be shared. The public example dem
 
 ## Citation 
 
-If you use this work, please cite::
+If you use this work, please cite:
 
 ```bibtex
-@article{delden2026_GEM,
+@article{GEM,
   title   = {Identifying misclassified labels in Register Data},
   year    = {2026},
   doi     = {DOI},
